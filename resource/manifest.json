@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "ShredCraft",
+        "description": "Ski and snowboard your way down the slopes in ShredCraft, an all-new addon for Minecraft: Bedrock Edition!",
+        "uuid": "cccfc662-7dc3-47bc-885e-3df6b62c4e7e",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 19, 83]
+    },
+    "modules": [
+        {
+            "description": "ADD WHEN WE KNOW WHAT MODULES DOES",
+            "type": "resources",
+            "uuid": "e38a461d-6be5-4e30-9d66-ea7182ef7b65",
+            "version": [1, 0, 0]
+        }
+    ]
+}
