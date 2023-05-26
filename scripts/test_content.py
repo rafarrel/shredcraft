@@ -1,23 +1,20 @@
-# REQUIREMENTS:
-# 
-# 1) Copy all addon packs in the "src" folder to the development pack folders
-#    in the minecraft 'com.mojang' folder.
-# 2) Run Minecraft.
-# 
-#    ----> This will probably require checks for the operating system +
-#          OS-dependent shell commands.
-
 # ---------------------------------------------------------------------------- # 
 # Standard library
 # ---------------------------------------------------------------------------- # 
-import platform
-import subprocess
+import pathlib
+import shutil
 
 
 if __name__ == '__main__':
-    OS = platform.system()
+    HOME_DIR = pathlib.Path.home()
+    PROJECT_ROOT_DIR = pathlib.Path(__file__).parent.parent
+    PROJECT_SOURCE_DIR = PROJECT_ROOT_DIR.joinpath('src')
+    MINECRAFT_PACKS_DIR = HOME_DIR.joinpath('AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang')
 
-    if OS == 'Windows':
-        print('IMPLEMENTING...')
-    else:
-        print(f'This script does not support {OS} yet! Open an issue so we can add support...')
+    # Copy addon packs to the development folders in 'com.mojang'
+    for pack in PROJECT_SOURCE_DIR.iterdir():
+        pack_name = pack.name
+        if pack_name in ('behavior', 'resource'):
+            dev_packs_dir = MINECRAFT_PACKS_DIR.joinpath(f'development_{pack_name}_packs')
+            new_pack_dir = dev_packs_dir.joinpath(f'ShredCraft_dev_{pack_name}')
+            shutil.copytree(src=pack, dst=new_pack_dir)
