@@ -6,3 +6,4 @@ After making changes to addon packs during development, run the following comman
 ```
 python scripts/copy_content.py
 ```
+Now, restart the testing game world with the addon packs activated and all changes should be seen automatically.
