@@ -13,10 +13,11 @@ if __name__ == '__main__':
 
     # Copy addon packs to the development folders in 'com.mojang'
     for pack_filepath in PROJECT_SOURCE_DIR.iterdir():
-        pack_name = pack_filepath.name
-        if pack_name in ('behavior', 'resource'):
+        pack_type = pack_filepath.name
+        if pack_type in ('behavior', 'resource'):
             new_filepath = MINECRAFT_PACKS_DIR.joinpath(
-                f'development_{pack_name}_packs',
-                f'ShredCraft_dev_{pack_name}'
-            )
-            shutil.copytree(src=pack_filepath, dst=new_filepath)
+                f'development_{pack_type}_packs/ShredCraft_dev_{pack_type}')
+            shutil.copytree(
+                src=pack_filepath, 
+                dst=new_filepath, 
+                dirs_exist_ok=True)
