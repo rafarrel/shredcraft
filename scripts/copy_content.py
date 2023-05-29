@@ -25,7 +25,7 @@ MINECRAFT_PACKS_DIR = HOME_DIR.joinpath('AppData/Local/Packages/Microsoft.Minecr
 if __name__ == '__main__':
     for pack_filepath in PROJECT_SOURCE_DIR.iterdir():
         pack_type = pack_filepath.name
-        if pack_type in ('behavior_pack', 'resource_pack'):
+        if pack_type in ('behavior', 'resource'):
             new_filepath = MINECRAFT_PACKS_DIR.joinpath(
                 f'development_{pack_type}_packs/ShredCraft_dev_{pack_type}')
             shutil.copytree(
