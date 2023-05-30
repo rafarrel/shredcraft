@@ -1,16 +1,16 @@
-{ 
-  "format_version": "1.19.40", 
-  "minecraft:block": { 
-    "description": { 
-      "identifier": "shredcraft:snow_slope" 
-    }, 
-   "components": { 
-    "minecraft:geometry": "geometry.snow_slope", 
-    "minecraft:material_instances": { 
-     "*": { 
-      "texture": "snow" 
-     } 
-    } 
-   } 
-  } 
+{
+    "format_version": "1.19.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "shredcraft:snow_slope"
+        },
+        "components": {
+            "minecraft:geometry": "geometry.snow_slope",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "snow"
+                }
+            }
+        }
+    }
 }
