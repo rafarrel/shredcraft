@@ -7,11 +7,8 @@
    "components": { 
     "minecraft:geometry": "geometry.snow_slope", 
     "minecraft:material_instances": { 
-     "north": { 
-      "texture": "snow" 
-     }, 
      "*": { 
-      "texture": "dirt" 
+      "texture": "snow" 
      } 
     } 
    } 
