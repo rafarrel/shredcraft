@@ -1,0 +1,26 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.snow_slope",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "slope_outside",
+					"pivot": [-2.6662, 5.33347, 0],
+					"cubes": [
+						{"origin": [-11.31371, 8, -8], "size": [22.62742, 0, 16], "pivot": [0, 8, 0], "rotation": [0, 0, 45], "uv": [-14, -14]},
+						{"origin": [-15.99929, 8.00071, -8], "size": [16, 0, 16], "pivot": [-7.99929, 8.00071, 0], "rotation": [0, 0, 90], "uv": [-14, -14]},
+						{"origin": [-7.99929, -0.00029, -8], "size": [16, 0, 16], "uv": [-14, -14]}
+					]
+				}
+			]
+		}
+	]
+}
