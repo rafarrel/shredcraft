@@ -8,7 +8,7 @@
             "minecraft:geometry": "geometry.snow_slope",
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "snow"
+                    "texture": "snow_slope"
                 }
             }
         }
