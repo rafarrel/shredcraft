@@ -5,7 +5,7 @@
 
     To run this script, execute from the top-level directory of the project:
     ```
-        python scripts/test_content.py
+        python scripts/copy_addons.py
     ```
 """
 # ---------------------------------------------------------------------------- # 
