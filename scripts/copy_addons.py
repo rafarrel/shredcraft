@@ -5,7 +5,7 @@
 
     To run this script, execute from the top-level directory of the project:
     ```
-        python scripts/test_content.py
+        python scripts/copy_addons.py
     ```
 """
 # ---------------------------------------------------------------------------- # 
@@ -13,6 +13,7 @@
 # ---------------------------------------------------------------------------- # 
 import pathlib
 import shutil
+from typing import Any
 
 
 # Paths
@@ -28,6 +29,7 @@ if __name__ == '__main__':
         if pack_type in ('behavior', 'resource'):
             new_filepath = MINECRAFT_PACKS_DIR.joinpath(
                 f'development_{pack_type}_packs/ShredCraft_dev_{pack_type}')
+            shutil.rmtree(path=new_filepath, ignore_errors=True)
             shutil.copytree(
                 src=pack_filepath, 
                 dst=new_filepath, 
