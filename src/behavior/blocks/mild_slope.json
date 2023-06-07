@@ -11,7 +11,7 @@
             "minecraft:geometry": "geometry.mild_slope",
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "dirt"
+                    "texture": "mild_slope"
                 }
             }
         }
