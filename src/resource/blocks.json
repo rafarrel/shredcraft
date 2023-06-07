@@ -1,6 +1,6 @@
-{ 
-  "format_version": "1.19.30", 
-    "shredcraft:snow_slope": { 
-    "sound": "snow" 
-  } 
-} 
+{
+    "format_version": "1.19.30",
+    "shredcraft:mild_slope": {
+        "sound": "snow"
+    }
+}
