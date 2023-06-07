@@ -1,7 +1,7 @@
 {
     "texture_data": {
-        "snow_slope": {
-            "textures": "textures/blocks/snow_slope"
+        "mild_slope": {
+            "textures": "textures/blocks/mild_slope"
         }
     }
 }
