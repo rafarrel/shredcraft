@@ -1,8 +1,17 @@
 {
-    "format_version": "1.19.0",
+    "format_version": "1.10.0",
     "minecraft:client_entity": {
         "description": {
-            "identifier": "shredcraft:skis"
+            "identifier": "shredcraft:skis",
+            "materials": {
+                "default": "entity"
+            },
+            "geometry": {
+                "default": "geometry.skis"
+            },
+            "render_controllers": [
+                "controller.render.default"
+            ]
         }
     }
 }
