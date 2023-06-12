@@ -6,6 +6,8 @@
             "is_spawnable": false,
             "is_summonable": true
         },
-        "components": {}
+        "components": {
+            "minecraft:physics": {}
+        }
     }
 }
