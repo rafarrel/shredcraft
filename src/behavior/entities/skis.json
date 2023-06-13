@@ -8,6 +8,9 @@
         },
         "components": {
             "minecraft:physics": {},
+            "minecraft:pushable": {
+                "is_pushable": false
+            },
             "minecraft:rideable": {
                 "seat_count": 1,
                 "seats": [
