@@ -7,7 +7,19 @@
             "is_summonable": true
         },
         "components": {
-            "minecraft:physics": {}
+            "minecraft:physics": {},
+            "minecraft:rideable": {
+                "seat_count": 1,
+                "seats": [
+                    {
+                        "position": [0.0, 0.0, 0.0],
+                        "min_rider_count": 0,
+                        "max_rider_count": 1,
+                        "rotate_rider_by": -90,
+                        "lock_rider_rotation": 180
+                    }
+                ]
+            }
         }
     }
 }
