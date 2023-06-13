@@ -6,6 +6,9 @@
             "materials": {
                 "default": "entity"
             },
+            "textures": {
+                "default": "textures/entity/skis"
+            },
             "geometry": {
                 "default": "geometry.skis"
             },
