@@ -12,7 +12,7 @@ A 16x8x16 slab-like block with a snow texture has been added allowing users to b
 
 
 # Contributing
-Contribution guidelines are still being worked out. However, if you would like to join the project, reach at to Alex at: ralexfarrell@outlook.com. 
+Contribution guidelines are still being worked out. However, if you would like to join the project, reach out to Alex at: ralexfarrell@outlook.com. 
 
 The goal of this project is to create a community-driven open source skiing addon for Minecraft: Bedrock Edition. We welcome any contributions!
 
