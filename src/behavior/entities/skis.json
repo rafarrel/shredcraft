@@ -12,6 +12,7 @@
                 "value": 0.5,
                 "max": 0.5
             },
+            "minecraft:input_ground_controlled": {},
             "minecraft:pushable": {
                 "is_pushable": false
             },
