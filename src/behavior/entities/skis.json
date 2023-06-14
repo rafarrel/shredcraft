@@ -8,6 +8,10 @@
         },
         "components": {
             "minecraft:physics": {},
+            "minecraft:health": {
+                "value": 0.5,
+                "max": 0.5
+            },
             "minecraft:pushable": {
                 "is_pushable": false
             },
